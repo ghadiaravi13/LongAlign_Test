@@ -4,10 +4,13 @@ import glob
 import json
 import time
 import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM, AutoConfig
 from transformers.generation.utils import GenerationConfig
 from llama_flash_attn_monkey_patch import replace_llama_attn_with_flash_attn
-replace_llama_attn_with_flash_attn()
+# replace_llama_attn_with_flash_attn()
+
+os.environ['HF_HOME'] = "/work/10198/ghadiaravi13/ls6/HopFormer/HF_Llama3/HF_cache"
+cache_dir = "/work/10198/ghadiaravi13/ls6/HopFormer/HF_Llama3/HF_cache/"
 
 def pred(model_name, model, tokenizer, input_data, device, max_new_tokens=1024, temperature=0.1):
     prompt = input_data[0]['content']+'\n'+input_data[1]['content']
@@ -42,21 +45,21 @@ def pred(model_name, model, tokenizer, input_data, device, max_new_tokens=1024, 
     pred = tokenizer.decode(output[context_length:], skip_special_tokens=True)
     return pred.strip()
 
-def load_model_and_tokenizer(path, device):
+def load_model_and_tokenizer(path, config, device):
     valid_path = path.lower()
     if "longchat" in valid_path or "vicuna" in valid_path:
         from fastchat.model import load_model
-        model, _ = load_model(path, device='cpu', num_gpus=0, load_8bit=False, cpu_offloading=False, debug=False)
+        model, _ = load_model(path, cache_dir = cache_dir, device='cpu', num_gpus=0, load_8bit=False, cpu_offloading=False, debug=False)
         model = model.to(device)
         model = model.bfloat16()
         tokenizer = AutoTokenizer.from_pretrained(path, trust_remote_code=True, use_fast=False)
     elif "mistral" in valid_path or "mixtral" in valid_path:
         tokenizer = AutoTokenizer.from_pretrained(path, trust_remote_code=True)
-        model = AutoModelForCausalLM.from_pretrained(path, use_flash_attention_2=True, trust_remote_code=True, torch_dtype=torch.bfloat16, device_map="auto")
+        model = AutoModelForCausalLM.from_pretrained(path, cache_dir = cache_dir, config=config, use_flash_attention_2=True, trust_remote_code=True, torch_dtype=torch.bfloat16).to(device) #, device_map="auto")
         model.generation_config = GenerationConfig.from_pretrained(path)
     else:
         tokenizer = AutoTokenizer.from_pretrained(path, trust_remote_code=True)
-        model = AutoModelForCausalLM.from_pretrained(path, trust_remote_code=True, torch_dtype=torch.bfloat16, device_map="auto")
+        model = AutoModelForCausalLM.from_pretrained(path, cache_dir = cache_dir, config=config, trust_remote_code=True, torch_dtype=torch.bfloat16).to(device)# , device_map="auto")
     model = model.eval()
     return model, tokenizer
 
@@ -66,6 +69,9 @@ if __name__ == '__main__':
 
     model_provider = config['model']['model_provider']
     model_name = config['model']['model_name']
+    model_config = AutoConfig.from_pretrained(model_name, cache_dir=cache_dir)
+    model_config._attn_implementation = "flash_attention_2"
+    model_config.hopformer = config['model']['hopformer_config']
     prompt_dir = config['prompt_dir']
     save_dir = config['save_dir']
 
@@ -74,7 +80,7 @@ if __name__ == '__main__':
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    model, tokenizer = load_model_and_tokenizer(model_name, device)
+    model, tokenizer = load_model_and_tokenizer(model_name, model_config, device)
 
     for filename in glob.glob(f'{prompt_dir}/{model_provider}_*_prompts.json'):
         with open(filename, 'r') as f:

@@ -12,6 +12,9 @@ from transformers import AutoTokenizer
 
 load_dotenv()
 
+os.environ['HF_HOME'] = "/work/10198/ghadiaravi13/ls6/HopFormer/HF_Llama3/HF_cache"
+cache_dir = "/work/10198/ghadiaravi13/ls6/HopFormer/HF_Llama3/HF_cache/"
+
 class Prompter:
     """
     This class is used to test the LLM Needle Haystack.

@@ -1,6 +1,12 @@
-prompt_dir: 'prompts'
-save_dir: 'pred'
+prompt_dir: 'prompts_mistral'
+save_dir: 'pred_mistral_ws30_st30'
 
 model:
   model_provider: "Huggingface"  # "OpenAI", "Anthropic" or "Huggingface"
-  model_name: "THUDM/LongAlign-6B-64k"
+  model_name: "mistralai/Mistral-7B-Instruct-v0.2"
+  hopformer_config: 
+    window_size: 30
+    sim_threshold: 30
+    softmax: 'normal'
+    num_attn_sinks: 0
+    hopf_type: max_fused

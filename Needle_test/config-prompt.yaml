@@ -18,7 +18,7 @@ document_depth:
 
 tokenizer:
   tokenizer_type: "Huggingface"
-  model_name: "THUDM/LongAlign-6B-64k" # Change it to your own model name / HF model path
+  model_name: "meta-llama/Llama-3.1-8B-Instruct" #"THUDM/LongAlign-6B-64k" # Change it to your own model name / HF model path
 
-save_dir: 'prompts'
+save_dir: 'prompts_llama3.1'
 

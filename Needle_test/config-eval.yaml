@@ -1,9 +1,9 @@
-pred_dir: 'pred'
-save_dir: 'results'
+pred_dir: 'pred_mistral_ws30_st30'
+save_dir: 'results_mistral_ws30_st30'
 
 model:
   model_provider: "OpenAI"
-  model_name: "gpt-4"
+  model_name: "gpt-4o-2024-05-13"
 
 prompt:
   needle: "\nThe best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.\n"

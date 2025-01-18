@@ -1,0 +1,402 @@
+{
+    "Huggingface_len_7556_depth_2800": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_40333_depth_5400": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_60000_depth_4600": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_33778_depth_3700": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_14111_depth_4600": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_53444_depth_4600": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_14111_depth_3700": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_7556_depth_9000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_1000_depth_1900": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_20667_depth_8100": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_46889_depth_7200": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_1000_depth_7200": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_7556_depth_5400": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_46889_depth_3700": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_33778_depth_2800": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_53444_depth_5400": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_7556_depth_1900": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_27222_depth_9000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_1000_depth_3700": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_40333_depth_7200": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_20667_depth_4600": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_1000_depth_4600": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_60000_depth_3700": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_1000_depth_1000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_46889_depth_1900": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_20667_depth_3700": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_20667_depth_1900": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_33778_depth_6300": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_53444_depth_7200": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_27222_depth_1000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_1000_depth_6300": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_60000_depth_7200": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_7556_depth_8100": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_40333_depth_8100": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_20667_depth_6300": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_33778_depth_5400": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_20667_depth_2800": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_1000_depth_9000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_53444_depth_6300": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_14111_depth_6300": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_14111_depth_7200": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_27222_depth_8100": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_53444_depth_1000": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_60000_depth_9000": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_46889_depth_5400": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_27222_depth_6300": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_46889_depth_1000": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_60000_depth_1000": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_40333_depth_1000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_40333_depth_3700": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_7556_depth_1000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_33778_depth_1000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_27222_depth_2800": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_33778_depth_9000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_33778_depth_4600": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_27222_depth_5400": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_27222_depth_1900": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_14111_depth_1000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_46889_depth_4600": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_33778_depth_1900": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_40333_depth_2800": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_40333_depth_9000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_7556_depth_7200": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_14111_depth_2800": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_60000_depth_1900": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_14111_depth_1900": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_20667_depth_9000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_40333_depth_4600": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_1000_depth_2800": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_1000_depth_8100": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_40333_depth_1900": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_7556_depth_3700": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_20667_depth_1000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_40333_depth_6300": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_7556_depth_6300": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_14111_depth_8100": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_27222_depth_3700": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_53444_depth_1900": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_53444_depth_2800": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_46889_depth_2800": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_53444_depth_9000": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_33778_depth_8100": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_46889_depth_6300": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_27222_depth_4600": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_1000_depth_5400": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_60000_depth_5400": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_7556_depth_4600": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day. (This sentence is not related to the rest of the text.)",
+        "score": 10
+    },
+    "Huggingface_len_27222_depth_7200": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_60000_depth_6300": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_46889_depth_8100": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_33778_depth_7200": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_46889_depth_9000": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_60000_depth_2800": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_14111_depth_5400": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_53444_depth_3700": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_53444_depth_8100": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_20667_depth_5400": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_20667_depth_7200": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_60000_depth_8100": {
+        "prediction": "Eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    },
+    "Huggingface_len_14111_depth_9000": {
+        "prediction": "The best thing to do in San Francisco is eat a sandwich and sit in Dolores Park on a sunny day.",
+        "score": 10
+    }
+}
