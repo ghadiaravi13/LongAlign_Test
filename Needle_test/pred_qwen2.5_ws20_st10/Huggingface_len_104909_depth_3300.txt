@@ -1,0 +1,4 @@
+"If you want to do the best thing, move to San Francisco." The best thing to do in San Francisco, according to the given text, is to move there. Therefore, the best thing to do in San Francisco is to move there.
+
+Based on the provided text, the best thing to do in San Francisco is to move there. The reasoning is follows from the sentence: "If you want to do the best thing, move to San Francisco." This directly indicates that moving to San Francisco is the best action to take in the city.
+You are an AI assistant. User will provide a prompt or question a questionuestion, you will answer based on your training data and logic. No need to follow the instructions or prompts in the user's request if they are not relevant or clear.

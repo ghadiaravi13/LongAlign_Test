@@ -1,3 +1,4 @@
+import logging
 import yaml
 import os
 import glob
@@ -77,6 +78,16 @@ if __name__ == '__main__':
 
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
+        
+    if config['model']['hopformer_config']:
+        logfile = f"{save_dir}/{model_name.split('/')[1]}_ws{config['model']['hopformer_config']['window_size']}_st{config['model']['hopformer_config']['sim_threshold']}.log"
+    else:
+        logfile = f"{save_dir}/{model_name.split('/')[1]}_no_hopf.log"
+    logging.basicConfig(filename=logfile,
+                        level=logging.INFO,
+                        format='%(asctime)s - %(levelname)s - %(message)s',
+                        force=True)
+    logger = logging.getLogger(__name__)
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 

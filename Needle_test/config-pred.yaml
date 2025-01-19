@@ -1,12 +1,12 @@
 prompt_dir: 'prompts_mistral'
-save_dir: 'pred_mistral_ws30_st30'
+save_dir: 'pred_mistral_no_hopf'
 
 model:
   model_provider: "Huggingface"  # "OpenAI", "Anthropic" or "Huggingface"
-  model_name: "mistralai/Mistral-7B-Instruct-v0.2"
+  model_name: "mistralai/Mistral-7B-Instruct-v0.2" #"Qwen/Qwen2.5-7B-Instruct"
   hopformer_config: 
-    window_size: 30
-    sim_threshold: 30
-    softmax: 'normal'
-    num_attn_sinks: 0
-    hopf_type: max_fused
+    # window_size: 20
+    # sim_threshold: 10
+    # softmax: 'normal'
+    # num_attn_sinks: 0
+    # hopf_type: max_fused

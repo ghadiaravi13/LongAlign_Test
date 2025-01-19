@@ -214,7 +214,7 @@ class Prompter:
 
             # We want to make sure that we place our needle at a sentence break so we first see what token a '.' is
             period_tokens = self.encode_text_to_tokens('.')
-            period_tokens = [30930]
+            # period_tokens = [30930]
             
             # Then we iteration backwards until we find the first period
             while tokens_new_context and tokens_new_context[-1] not in period_tokens:

@@ -6,7 +6,7 @@ import re
 import time
 import requests
 
-api_key = '' # Enter your openai api key here
+api_key = open('/work/10198/ghadiaravi13/vista/HopFormer/open_ai_api.txt','r').readlines()[0] # Enter your openai api key here
 
 def pred_openai(model_name, msg):
     tries = 0

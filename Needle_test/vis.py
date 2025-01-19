@@ -9,10 +9,10 @@ import glob
 
 if __name__ == '__main__':
     # Using glob to find all json files in the directory
-    json_files = glob.glob(f"results_mistral_ws30_st30/*.json")
+    json_files = glob.glob(f"results_mistral_no_hopf/*.json")
 
-    if not os.path.exists('vis_mistral_ws30_st30'):
-        os.makedirs('vis_mistral_ws30_st30')
+    if not os.path.exists('vis_mistral_no_hopf'):
+        os.makedirs('vis_mistral_no_hopf')
 
     # Iterating through each file and extract the 3 columns we need
     for file in json_files:
@@ -69,5 +69,5 @@ if __name__ == '__main__':
         plt.yticks(rotation=0)  # Ensures the y-axis labels are horizontal
         plt.tight_layout()  # Fits everything neatly into the figure area
         # Show the plot
-        plt.savefig(f"vis_mistral_ws30_st30/{file.split('/')[-1].replace('.json', '')}.png")
+        plt.savefig(f"vis_mistral_no_hopf/{file.split('/')[-1].replace('.json', '')}.png")
 

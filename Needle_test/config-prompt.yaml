@@ -5,20 +5,20 @@ prompt:
 
 context:
   min_len: 1000
-  max_len: 60000
-  interval: 10
+  max_len: 32000
+  interval: 12
   manually_select_list: null  # null or a list of context lengths to manually select
 
 document_depth:
-  min_percent: 10
-  max_percent: 90
+  min_percent: 0
+  max_percent: 100
   interval: 10
   interval_type: "linear"  # "linear", "sigmoid" or null
   manually_select_list: null  # null or a list of document percents to manually select
 
 tokenizer:
   tokenizer_type: "Huggingface"
-  model_name: "meta-llama/Llama-3.1-8B-Instruct" #"THUDM/LongAlign-6B-64k" # Change it to your own model name / HF model path
+  model_name: "mistralai/Mistral-7B-Instruct-v0.2" #"Qwen/Qwen2.5-7B-Instruct" #"meta-llama/Llama-3.1-8B-Instruct" #"THUDM/LongAlign-6B-64k" # Change it to your own model name / HF model path
 
-save_dir: 'prompts_llama3.1'
+save_dir: 'prompts_mistral'
 

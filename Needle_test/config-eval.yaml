@@ -1,5 +1,5 @@
-pred_dir: 'pred_mistral_ws30_st30'
-save_dir: 'results_mistral_ws30_st30'
+pred_dir: 'pred_mistral_no_hopf'
+save_dir: 'results_mistral_no_hopf'
 
 model:
   model_provider: "OpenAI"
