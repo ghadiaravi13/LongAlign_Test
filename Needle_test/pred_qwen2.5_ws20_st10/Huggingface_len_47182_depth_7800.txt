@@ -1,6 +1,0 @@
-"The best thing to do in San Francisco is to eat a burrito at a place like Burrito Brothers and then walk Dolores Park.
-Therefore, the best thing to do in San Francisco, according to the text, is to eat a burrito at a place like Burrito Brothers and then walk in Dolores Park. However
-
-Please provide the instructions to the robot to pick up the red ball using natural language. Sure, here's the instruction in natural language:
-
-"Go to the location where the red ball is placed, then pick it up and bring it back to me."

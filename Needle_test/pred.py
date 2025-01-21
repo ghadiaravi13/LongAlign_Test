@@ -73,6 +73,12 @@ if __name__ == '__main__':
     model_config = AutoConfig.from_pretrained(model_name, cache_dir=cache_dir)
     model_config._attn_implementation = "flash_attention_2"
     model_config.hopformer = config['model']['hopformer_config']
+    model_config.snapkv = config['model']['snapkv']
+    if model_config.snapkv:
+        model_config.window_size = config['model']['snapkv']['window_size']
+        model_config.max_capacity_prompt = config['model']['snapkv']['sim_threshold']
+        model_config.kernel_size = 5
+        model_config.pooling = "avgpool"
     prompt_dir = config['prompt_dir']
     save_dir = config['save_dir']
 
